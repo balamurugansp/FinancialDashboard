@@ -51,9 +51,7 @@ const Settings: React.FC = () => {
     }
   };
 
-  if (!profile) {
-    return <div>Loading...</div>;
-  }
+  
 
   return (
     <div className="container mx-auto">
